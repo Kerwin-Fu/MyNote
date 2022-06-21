@@ -1,0 +1,1 @@
+[call、apply、bind](./Code/Original_JS/call%E3%80%81apply%E5%92%8Cbind.md)
