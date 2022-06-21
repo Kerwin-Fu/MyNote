@@ -14,7 +14,7 @@
 
 virtualDom树（参照下图左部分）的每个节点一般使用某个方法创建，这里我们定义这个方法名为 `createEle-ment`。这个方法返回一个构造函数，接收三个参数，分别为： **type**: **节点名 接收一个string** (如下图节点0的 ul)； **props**: **属性 接收一个对象**（节点0 的 class: ‘list’，这个属性值为一个对象，也就是可以定义多个属性 )； **children**: **子节点 接收一个数组**（下图每条伸出的灰线代表一个拥有的子节点，如节点0拥有3个子节点）。
 
-![../../assets/Code/OriginalJS/diff.png](../../assets/Code/OriginalJS/diff.png)
+![](https://kerwin-1311807449.cos.ap-nanjing.myqcloud.com/diff.png)
 
 image.png
 
@@ -59,7 +59,7 @@ const vDom1 = createElement(
 
 在控制台中打印，我们可以清晰看出它的结构 #
 
-![../../assets/Code/OriginalJS/elment.png](../../assets/Code/OriginalJS/elment.png)
+![](https://kerwin-1311807449.cos.ap-nanjing.myqcloud.com/elment.png)
 
 有了虚拟Dom，但是结构还是不会出来，我们需要将虚拟Dom转换为真实的Dom挂载到页面上去，页面上才会显示真正的结构，这里就需要专门的方法来处理这一事务。
 
@@ -193,7 +193,7 @@ const vDom2 = createElement('ul', {
 
 但是，看看下面的新旧vDom对照图：（右部红色处为修改过的地方，虚线灰色为被删除了的节点）
 
-![../../assets/Code/OriginalJS/diff.png](../../assets/Code/OriginalJS/diff.png)
+![](https://kerwin-1311807449.cos.ap-nanjing.myqcloud.com/diff.png)
 
 我们发现，有修改的只有0、2、3、6、7对应的节点，如果仍然使用之前一整套处理方式，岂不是很浪费资源？ 明明1、4、5、8并没有任何修改，但渲染成真实Dom树时也是需要将他们一道处理的。
 

@@ -8,7 +8,7 @@
 
 [Promise - JavaScript | MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
-![../../assets/Code/OriginalJS/promise.png](../../assets/Code/OriginalJS/promise.png)
+![](https://kerwin-1311807449.cos.ap-nanjing.myqcloud.com/promise.png)
 
 > 通常来说，Promise对象以此有以下三个注意点：
 > 

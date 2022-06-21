@@ -1,6 +1,6 @@
 # pinia文档通读
 
-![../../assets/Code/Vue/pinia.jpg](../../assets/Code/Vue/pinia.jpg)
+![](https://kerwin-1311807449.cos.ap-nanjing.myqcloud.com/pinia.jpg)
 
 **吃菠萝**
 

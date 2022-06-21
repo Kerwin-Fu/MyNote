@@ -61,7 +61,7 @@ Object.defineProperty(Person, 'name', {
 
 以下时描述符中拥有的属性和默认值，一般在使用 descriptor 定义属性时忽略了某些属性，就会赋予默认值。
 
-![../../assets/Code/Vue/defineproperty.png](../../assets/Code/Vue/defineproperty.png)
+![](https://kerwin-1311807449.cos.ap-nanjing.myqcloud.com/defineproperty.png)
 
 但是，注意：只是使用 descriptor 对属性进行定义时会采用以上的默认值，如果是直接赋值方式:
 

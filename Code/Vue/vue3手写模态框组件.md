@@ -14,7 +14,7 @@
 
 alert和confirm有些业务有重叠，这里的例子就不实现alert的模态框了
 
-![../../assets/Code/Vue/%E6%A8%A1%E6%80%81%E6%A1%86.png](../../assets/Code/Vue/%E6%A8%A1%E6%80%81%E6%A1%86.png)
+![](https://kerwin-1311807449.cos.ap-nanjing.myqcloud.com/%E6%A8%A1%E6%80%81%E6%A1%86.png)
 
 image.png
 
